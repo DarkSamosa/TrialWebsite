@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Footer from "./components/footer";
 
 import Navbar from "./components/navbar";
 import Home from "./components/Home";
@@ -20,9 +21,11 @@ function App() {
             <Route path="/Contact" element={<Contact />} />
             <Route path="/PhotoGallery" element={<PhotoGallery />} />
           </Routes>
+          <Footer />
         </div>
       </div>
     </Router>
+    
   );
 }
 
