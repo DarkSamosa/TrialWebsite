@@ -1,0 +1,31 @@
+/* Reset default spacing and box sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Make html, body, and root fill the viewport */
+html,
+body,
+#root {
+  height: 100%;
+}
+
+/* Optional: Set a base font and smoothing */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5dc; /* beige background */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* (Optional) Make images and media scale nicely */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}

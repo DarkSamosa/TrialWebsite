@@ -1,0 +1,48 @@
+/* Navbar container */
+.navbar {
+  background-color: #002244; /* dark blue */
+  padding: 15px 30px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Navigation links */
+.nav-link {
+  color: #f5f5dc; /* bright beige */
+  text-decoration: none;
+  margin: 0 20px;
+  font-weight: 500;
+  font-size: 18px;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+  padding-bottom: 4px;
+}
+
+/* Hover effect */
+.nav-link:hover {
+  color: #add8e6; /* soft light blue */
+  border-bottom: 2px solid #add8e6;
+}
+
+.page {
+  flex: 1;
+  min-height: calc(100vh - 60px); /* Subtract navbar height if needed */
+  background-color: #f5f5dc; /* beige */
+  padding: 40px;
+  color: #002244; /* dark blue text */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+
+/* Heading styling */
+.page h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+/* Paragraph styling */
+.page p {
+  font-size: 18px;
+  line-height: 1.6;
+}
